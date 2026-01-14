@@ -8,7 +8,7 @@ export default defineConfig({
         port: 5173,
         proxy: {
             '/api': {
-                target: 'https://gigflow-1-l3vs.onrender.com/',
+                target: 'https://gigflow-1-l3vs.onrender.com',
                 changeOrigin: true,
                 secure: false,
             },
